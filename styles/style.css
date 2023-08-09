@@ -20,7 +20,7 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .cabecalho__menu__link {
@@ -58,6 +58,11 @@ body {
 
 .apresentacao__conteudo__paragrafo.-pequeno {
     font-size: 20px;
+}
+
+.certificado {
+    text-decoration: none;
+    color: #22D4FD;
 }
 
 .apresentacao__links {
