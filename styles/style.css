@@ -6,7 +6,9 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
@@ -111,12 +113,12 @@ strong {
 .rodape {
     color: #000000;
     background-color: #22D4FD;
-    padding: 24px;
+    margin-top: auto;
+    padding: 10px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    line-height: 36px;
 }
 
 .sticky {
