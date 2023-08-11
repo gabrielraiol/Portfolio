@@ -48,7 +48,8 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -90,7 +91,7 @@ body {
 
 .apresentacao__links__botoes {
     display: flex;
-    width: 378px;
+    width: 50%;
     text-align: center;
     justify-content: center;
     gap: 16px;
@@ -123,6 +124,16 @@ strong {
     font-family: var(--fonte-titulo);
 }
 
+.apresentacao__imagem {
+    width: 50%;
+}
+
+.apresentacao__imagem.-sticky {
+    position: sticky;
+    top: 25%;
+    align-self: flex-start;
+}
+
 .rodape {
     color: var(--cor-fundo);
     background-color: var(--cor-destaque);
@@ -132,10 +143,4 @@ strong {
     font-family: var(--fonte-texto);
     font-size: 1.5rem;
     font-weight: 400;
-}
-
-.sticky {
-    position: sticky;
-    top: 25%;
-    align-self: flex-start;
 }
