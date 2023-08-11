@@ -141,6 +141,7 @@ strong {
 }
 
 @media (min-width: 1200px) {
+
     .apresentacao__imagem.-sticky {
         position: sticky;
         top: 25%;
@@ -159,6 +160,10 @@ strong {
         gap: 15px;
     }
 
+    .cabecalho__menu__link {
+        font-size: 1.125rem;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5%;
@@ -168,7 +173,28 @@ strong {
         width: auto;
     }
 
+    .apresentacao__conteudo__titulo {
+        font-size: 2rem;
+    }
+
+    .apresentacao__conteudo__paragrafo {
+        font-size: 1.25rem;
+    }
+
+    .apresentacao__links__subtitulo {
+        font-size: 1.25rem;
+    }
+
+    .apresentacao__links__botoes {
+        width: 60%;
+        font-size: 1.25rem;
+    }
+
     .apresentacao__imagem {
         width: 50%;
+    }
+
+    .rodape {
+        font-size: 1.125rem;
     }
 }
