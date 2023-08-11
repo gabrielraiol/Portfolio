@@ -45,6 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -125,13 +126,7 @@ strong {
 }
 
 .apresentacao__imagem {
-    width: 50%;
-}
-
-.apresentacao__imagem.-sticky {
-    position: sticky;
-    top: 25%;
-    align-self: flex-start;
+    width: 35%;
 }
 
 .rodape {
@@ -143,4 +138,37 @@ strong {
     font-family: var(--fonte-texto);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+    .apresentacao__imagem.-sticky {
+        position: sticky;
+        top: 25%;
+        align-self: flex-start;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .cabecalho {
+        padding: 6%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
+
+    .apresentacao__imagem {
+        width: 50%;
+    }
 }
