@@ -166,7 +166,7 @@ strong {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 5% 8%;
     }
 
     .apresentacao__conteudo {
