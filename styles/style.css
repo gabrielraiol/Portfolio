@@ -62,7 +62,7 @@ body {
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-family: var(--fonte-titulo);
 }
 
@@ -133,7 +133,7 @@ strong {
 .apresentacao__conteudo__experiencia {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.825rem;
     font-family: var(--fonte-titulo);
 }
 
@@ -145,10 +145,10 @@ strong {
     color: var(--cor-fundo);
     background-color: var(--cor-destaque);
     margin-top: auto;
-    padding: 10px;
+    padding: 0.3rem;
     text-align: center;
     font-family: var(--fonte-texto);
-    font-size: 1.5rem;
+    font-size: 1.125rem;
     font-weight: 400;
 }
 
@@ -162,6 +162,18 @@ strong {
 }
 
 @media (max-width: 1200px) {
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1.125rem;
+    }
+
+    h2, h3 {
+        font-weight: normal;
+    }
 
     .cabecalho {
         padding: 6%;
@@ -190,11 +202,28 @@ strong {
     }
 
     .apresentacao__conteudo__titulo {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .-center {
+        text-align: center;
+    }
+
+    .-initial {
+        text-align: initial;
+    }
+
+    .breakline::before {
+        content: "\a";
+        white-space: pre;
     }
 
     .apresentacao__conteudo__paragrafo {
-        font-size: 1.25rem;
+        font-size: 1.125rem;
+    }
+
+    .apresentacao__conteudo__paragrafo.-pequeno {
+        font-size: 1.125rem;
     }
 
     .apresentacao__links__subtitulo {
@@ -216,5 +245,6 @@ strong {
 
     .rodape {
         font-size: 1rem;
+        margin-top: 1.125rem;
     }
 }
