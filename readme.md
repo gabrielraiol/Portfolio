@@ -4,4 +4,5 @@
 </br>
 <a href="https://raiol.vercel.app/" target="_blank">Link to portfolio</a>
 </br>
+</br>
 <p>This was my first responsive HTML/CSS project, and I use it to this day. When there is a need I update some information or, if I like some feature learned, add it.</p>
