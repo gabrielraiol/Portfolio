@@ -45,6 +45,26 @@ body {
     font-size: 1.7rem;
 }
 
+.botoes_idioma {
+    padding: 1% 15% 0 15%;
+    display: flex;
+    gap: 1rem;
+}
+
+.botao_idioma {
+    width: 2rem;
+    height: 2rem;
+    border: 1.5px solid var(--cor-destaque);
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.botao_idioma:hover {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .apresentacao {
     padding: 5% 15%;
     display: flex;
@@ -190,6 +210,11 @@ strong {
 
     .cabecalho__menu__link:hover {
         font-size: 1.3rem;
+    }
+
+    .botoes_idioma {
+        justify-content: center;
+        padding-bottom: 1.5rem;
     }
 
     .apresentacao {
