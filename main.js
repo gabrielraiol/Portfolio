@@ -13,7 +13,7 @@ function changeLanguage(language) {
 // Function to update the content based on language data
 function updateContent(data) {
   Object.keys(data).forEach(key => {
-    const element = document.getElementById(key) || document.querySelector(`.${key}`);
+    const element = document.querySelector(`.${key}, #${key}`);
     if (element) {
       element.textContent = data[key];
     }
