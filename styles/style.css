@@ -8,8 +8,9 @@
 :root {
     --cor-destaque: #22D4FD;
     --cor-fundo: #000000;
-    --cor-textos: #F6F6F6;
     --cor-hover-fundo: #272727;
+    --cor-textos: #F6F6F6;
+    --cor-textos-2: #757575;
     --fonte-titulo: 'Krona One', sans serif;
     --fonte-texto: 'Montserrat', sans serif;
 }
@@ -50,7 +51,7 @@ body {
 }
 
 .botoes_idioma {
-    padding: 1% 15% 0 15%;
+    padding: 1.5rem 15% 0 15%;
     display: flex;
     gap: 1rem;
 }
@@ -58,7 +59,7 @@ body {
 .botao_idioma {
     width: 2rem;
     height: 2rem;
-    border: 1.5px solid var(--cor-destaque);
+    border: 1.5px solid var(--cor-textos);
     border-radius: 50%;
     overflow: hidden;
     transition: all 0.5s;
@@ -104,6 +105,11 @@ body {
     text-decoration: none;
     color: var(--cor-destaque);
     transition: all 0.5s;
+}
+
+.emissor {
+    color: var(--cor-textos-2);
+    font-weight: 600;
 }
 
 .certificado:hover {
@@ -193,6 +199,7 @@ strong {
 
     h3 {
         font-size: 1.125rem;
+        color: var(--cor-textos-2);
     }
 
     h2, h3 {
@@ -278,7 +285,6 @@ strong {
 
     .botoes_idioma {
         justify-content: center;
-        padding-bottom: 1.5rem;
     }
 
     .apresentacao {
