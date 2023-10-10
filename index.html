@@ -9,12 +9,27 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
+        
+        <nav class="cabecalho__menu -desktop">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
             <a class="cabecalho__menu__link" href="experience.html">Experiência</a>
             <a class="cabecalho__menu__link" href="education.html">Formação</a>
         </nav>
+
+        <div class="cabecalho__menu -mobile">
+            <button class="cabecalho__menu-button" onclick="toggleMobileMenu()">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </button>
+            <nav class="cabecalho__menu__mobile-links">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="experience.html">Experiência</a>
+                <a class="cabecalho__menu__link" href="education.html">Formação</a>
+            </nav>
+        </div>
     </header>
     <!-- <div class="botoes_idioma">
         <button class="botao_idioma" id="pt-BR_button"><img src="assets/br-flag.svg" alt="pt-BR"></button>

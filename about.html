@@ -9,12 +9,27 @@
 </head>
 <body>
     <header class="cabecalho">
-        <nav class="cabecalho__menu">
+        
+        <nav class="cabecalho__menu -desktop">
             <a class="cabecalho__menu__link" href="index.html">Home</a>
             <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
             <a class="cabecalho__menu__link" href="experience.html">Experiência</a>
             <a class="cabecalho__menu__link" href="education.html">Formação</a>
         </nav>
+
+        <div class="cabecalho__menu -mobile">
+            <button class="cabecalho__menu-button" onclick="toggleMobileMenu()">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+            </button>
+            <nav class="cabecalho__menu__mobile-links">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+                <a class="cabecalho__menu__link" href="experience.html">Experiência</a>
+                <a class="cabecalho__menu__link" href="education.html">Formação</a>
+            </nav>
+        </div>
     </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
@@ -26,5 +41,7 @@
     <footer class="rodape">
         <p>There is nothing permanent except change</p>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>

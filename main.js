@@ -1,3 +1,12 @@
+//Hamburger-menu
+function toggleMobileMenu() {
+    const mobileMenu = document.querySelector(".cabecalho__menu__mobile-links");
+    const menuButton = document.querySelector(".cabecalho__menu-button");
+
+    mobileMenu.classList.toggle("show");
+    menuButton.classList.toggle("active");
+}
+
 // Default language (e.g., Portuguese)
 let currentLanguage = 'pt-BR';
 
@@ -21,7 +30,6 @@ function updateContent(data) {
 }
 
 // Event listeners for language buttons
-
 document.getElementById('pt-BR_button').addEventListener('click', () => changeLanguage('pt-BR'));
 
 document.getElementById('en-US_button').addEventListener('click', () => changeLanguage('en-US'));
