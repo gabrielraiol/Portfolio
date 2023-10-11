@@ -13,9 +13,11 @@
     "apresentacao__links__subtitulo": "Acesse minhas redes:",
     "rodape": "Não existe nada permanente senão a mudança",
 
+    "about-head-title": "Sobre mim",
     "about-title": "Sobre mim",
     "about-content": "Formado em Sistemas de Informação pela UFRA, já trabalhei com consultoria e análise de infraestrutura de T.I., realizando levantamento de requisitos, implementação de sistemas e suporte ao usuário. Participei de um projeto de transformação digital na área da saúde pública em um município do interior do Pará, implementando um sistema de Prontuário Eletrônico. Decidi trocar um pouco os ares da minha carreira, e estou estudando <span class='cor-destaque'>desenvolvimento front-end</span>, este portfolio inclusive foi o meu primeiro projeto! Além de entusiasta de tecnologia e inovação, tenho como hobbies o ciclismo, a musculação e o gaming environment 😄",
 
+    "experience-head-title": "Experiência",
     "experience-title": "Experiência Profissional",
     "experience-role-3": "Analista de Sistemas",
     "experience-date-3": "set 2021 - dez 2022",
@@ -32,6 +34,7 @@
     "experience-content-1": "Durante a vigência, prestava consultoria em tecnologia para a diretoria do órgão sob orientação do meu supervisor, realizava manutenção da rede e das políticas de acesso do servidor, mantinha o HelpDesk contínuo aos usuários e implementei mediante aprovação da diretoria a atualização do parque tecnológico do mesmo.",
     "experience-skills-1": "<strong>Competências:</strong> Windows Server · Active Directory · Firewall Checkpoint· Suporte Técnico · Manutenção de Hardware",
 
+    "edu-head-title": "Formação",
     "edu-academic":"Formação Acadêmica",
     "edu-academic-info": "Bacharel em Sistemas de Informação<br/><span class='cor-destaque'>Instituição:</span> <span class='emissor'>Universidade Federal Rural da Amazônia</span><br/>Concluído em 2023",
     

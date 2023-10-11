@@ -13,9 +13,11 @@
     "apresentacao__links__subtitulo": "Check my links:",
     "rodape": "There is nothing permanent except change",
 
-    "about-title": "About Me",
+    "about-head-title": "About me",
+    "about-title": "About me",
     "about-content": "Graduated in Information Systems from UFRA, I have worked with IT infrastructure consultancy and analysis, carrying out requirements gathering, systems implementation and user support. I participated in a digital transformation project in the area of ​​public health in a municipality in the interior of Pará, implementing an Electronic Medical Record system. I decided to change my career path a little, and I'm studying <span class='cor-destaque'>front-end development</span>, this portfolio was actually my first project! In addition to being a technology and innovation enthusiast, my hobbies are cycling, bodybuilding and the gaming environment 😄",
 
+    "experience-head-title": "Experience",
     "experience-title": "Professional Experience",
     "experience-role-3": "Systems Analyst",
     "experience-date-3": "sep 2021 - dec 2022",
@@ -32,6 +34,7 @@
     "experience-content-1": "During internship time, I provided technology consulting to the organization's executive team under the guidance of my supervisor. I conducted network maintenance and server access policies, ensured continuous HelpDesk support for users, and, with the approval of the executive team, implemented an upgrade to the organization's technology infrastructure.",
     "experience-skills-1": "<strong>Skills:</strong> Windows Server · Active Directory · Checkpoint Firewall · Technical Support · Hardware Maintenance",
 
+    "edu-head-title": "Education",
     "edu-academic":"Academic Education",
     "edu-academic-info": "Bachelor in Information Systems<br/><span class='cor-destaque'>Institution:</span> <span class='emissor'>Universidade Federal Rural da Amazônia</span><br/>Completed in 2023",
     
