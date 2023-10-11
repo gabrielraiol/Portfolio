@@ -59,7 +59,7 @@ body {
 .botao_idioma {
     width: 2rem;
     height: 2rem;
-    border: 1.5px solid var(--cor-textos);
+    border: 2px solid var(--cor-textos);
     border-radius: 50%;
     overflow: hidden;
     transition: all 0.5s;

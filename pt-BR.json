@@ -1,8 +1,15 @@
 {
-    "cabecalho__menu__link": "Sobre mim",
-    "apresentacao__conteudo__titulo": "Desenvolvedor Front-end",
-    "apresentacao__conteudo__paragrafo": "Olá! Sou o Gabriel Raiol, atualmente estou me especializando em desenvolvimento front-end, construindo projetos em React com TypeScript",
+    "dl1": "Home",
+    "dl2": "Sobre Mim",
+    "dl3": "Experiência",
+    "dl4": "Formação",
+    "ml1": "Home",
+    "ml2": "Sobre Mim",
+    "ml3": "Experiência",
+    "ml4": "Formação",
+    "apresentacao__conteudo__titulo": "Desenvolvedor <strong class='breakline' class='cor-destaque'>Front-end</strong>",
+    "apresentacao__conteudo__paragrafo": "Olá! Sou o Gabriel Raiol, atualmente estou me especializando em desenvolvimento front-end, construindo projetos em <span class='cor-destaque'>React com TypeScript</span>.",
     "apresentacao__links__subtitulo": "Acesse minhas redes:",
-    "rodape": "There is nothing permanent except change"
+    "rodape": "Não existe nada permanente senão a mudança"
   }
   

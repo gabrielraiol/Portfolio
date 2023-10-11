@@ -8,7 +8,10 @@ function toggleMobileMenu() {
 }
 
 // Default language (e.g., Portuguese)
-let currentLanguage = 'pt-BR';
+// let currentLanguage = 'pt-BR';
+
+// Initial content update
+// changeLanguage(currentLanguage);
 
 // Function to change the language
 function changeLanguage(language) {
@@ -24,7 +27,7 @@ function updateContent(data) {
   Object.keys(data).forEach(key => {
     const element = document.querySelector(`.${key}, #${key}`);
     if (element) {
-      element.textContent = data[key];
+      element.innerHTML = data[key];
     }
   });
 }
@@ -33,6 +36,3 @@ function updateContent(data) {
 document.getElementById('pt-BR_button').addEventListener('click', () => changeLanguage('pt-BR'));
 
 document.getElementById('en-US_button').addEventListener('click', () => changeLanguage('en-US'));
-
-// Initial content update
-changeLanguage(currentLanguage);
