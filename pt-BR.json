@@ -33,6 +33,20 @@
     "experience-skills-1": "<strong>Competências:</strong> Windows Server · Active Directory · Firewall Checkpoint· Suporte Técnico · Manutenção de Hardware",
 
     "edu-academic":"Formação Acadêmica",
-    "edu-academic-info": "Bacharel em Sistemas de Informação<br/><span class='cor-destaque'>Instituição:</span> <span class='emissor'>Universidade Federal Rural da Amazônia</span><br/>Concluído em 2023"
+    "edu-academic-info": "Bacharel em Sistemas de Informação<br/><span class='cor-destaque'>Instituição:</span> <span class='emissor'>Universidade Federal Rural da Amazônia</span><br/>Concluído em 2023",
+    
+    "edu-language": "Idiomas",
+    "edu-language-content": "<li>Inglês avançado</li>",
+
+    "edu-certificates": "Certificados",
+    "edu-certificate-1": "Google Workspace: Deployment Services Specialist<br/><a class='certificado' href='assets/certificado google.jpg' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Google</span>",
+    "edu-certificate-2": "HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags<br/><a class='certificado' href='https://cursos.alura.com.br/certificate/2097d9c3-66d6-4e7c-853a-ae10aaf8705c?lang=pt_BR' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Alura</span>",
+    "edu-certificate-3": "HTML e CSS: Classes, posicionamento e Flexbox<br/><a class='certificado' href='https://cursos.alura.com.br/certificate/e8fa7383-1acc-43fc-b3da-f1ac80280f85?lang=pt_BR' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Alura</span>",
+    "edu-certificate-4": "HTML e CSS: cabeçalho, footer e variáveis CSS<br/><a class='certificado' href='https://cursos.alura.com.br/certificate/ba42318a-f1c1-46f6-8371-96541abf46ba?lang=pt_BR' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Alura</span>",
+    "edu-certificate-5": "HTML e CSS: trabalhando com responsividade e publicação de projetos<br/><a class='certificado' href='https://cursos.alura.com.br/certificate/5a30a6e6-a1b6-41ed-b7bb-0309964f788e?lang=pt_BR' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Alura</span>",
+    "edu-certificate-6": "HTML e CSS: responsividade com mobile-first<br/><a class='certificado' href='https://cursos.alura.com.br/certificate/968f48ff-3304-4c37-bfc5-c15d66753287?lang=pt_BR' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Alura</span>",
+    "edu-certificate-7": "JavaScript: programando na linguagem da web<br/><a class='certificado' href='https://cursos.alura.com.br/certificate/94070f19-e016-47b8-a3fb-3024d2c39be0?lang=pt_BR' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Alura</span>",
+    "edu-certificate-8": "JavaScript para Web: Crie páginas dinâmicas<br/><a class='certificado' href='https://cursos.alura.com.br/certificate/c9fbbc9c-126d-48c8-9f1a-ae61cdcb5991?lang=pt_BR' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Alura</span>",
+    "edu-certificate-9": "React: escrevendo com Typescript<br/><a class='certificado' href='https://cursos.alura.com.br/certificate/9016327f-639c-437e-8d32-7a97e2f10817?lang=pt_BR' target='_blank'>Certificado</a> <span class='emissor'>| Emissor: Alura</span>"
   }
   
