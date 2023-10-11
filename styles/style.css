@@ -24,6 +24,10 @@ body {
     color: var(--cor-textos);
 }
 
+h3 {
+    color: var(--cor-textos-2);
+}
+
 .cabecalho__menu.-mobile {
     display: none;
 }
@@ -51,7 +55,7 @@ body {
 }
 
 .botoes_idioma {
-    padding: 1.5rem 15% 0 15%;
+    padding: 3rem 15% 0 15%;
     display: flex;
     gap: 1rem;
 }
@@ -71,7 +75,7 @@ body {
 }
 
 .apresentacao {
-    padding: 5% 15%;
+    padding: 3rem 15% 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -199,7 +203,6 @@ strong {
 
     h3 {
         font-size: 1.125rem;
-        color: var(--cor-textos-2);
     }
 
     h2, h3 {
@@ -285,6 +288,7 @@ strong {
 
     .botoes_idioma {
         justify-content: center;
+        padding: 2rem 15% 0 15%;
     }
 
     .apresentacao {

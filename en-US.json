@@ -7,8 +7,31 @@
     "ml2": "About Me",
     "ml3": "Experience",
     "ml4": "Education",
-    "apresentacao__conteudo__titulo": "Front-End <strong class='breakline' class='cor-destaque'>Developer</strong>",
-    "apresentacao__conteudo__paragrafo": "Hello! I'm Gabriel Raiol, currently specializing in front-end development, building projects in <span class='cor-destaque'>React with TypeScript</span>.",
+
+    "home-title": "Front-End <strong class='breakline' class='cor-destaque'>Developer</strong>",
+    "home-content": "Hello! I'm Gabriel Raiol, currently specializing in front-end development, building projects in <span class='cor-destaque'>React with TypeScript</span>.",
     "apresentacao__links__subtitulo": "Check my links:",
-    "rodape": "There is nothing permanent except change"
-  }
+    "rodape": "There is nothing permanent except change",
+
+    "about-title": "About Me",
+    "about-content": "Graduated in Information Systems from UFRA, I have worked with IT infrastructure consultancy and analysis, carrying out requirements gathering, systems implementation and user support. I participated in a digital transformation project in the area of ​​public health in a municipality in the interior of Pará, implementing an Electronic Medical Record system. I decided to change my career path a little, and I'm studying <span class='cor-destaque'>front-end development</span>, this portfolio was actually my first project! In addition to being a technology and innovation enthusiast, my hobbies are cycling, bodybuilding and the gaming environment 😄",
+
+    "experience-title": "Professional Experience",
+    "experience-role-3": "Systems Analyst",
+    "experience-date-3": "sep 2021 - dec 2022",
+    "experience-content-3": "Responsible for implementing the electronic medical record system in the municipality of Barcarena-PA, encompassing requirements gathering, configuration of the cloud server environment and user support. Responsible for the digital transformation process in the same municipality at the Revenue Department, implementing a service portal that makes services available online, previously manual and face-to-face, at the same time managing the development team regarding the demands requested by the client, where there were weekly meetings to define the best way to implement tasks. Among the technologies used, the web portal had API integrations with the Google DialogFlow chatbot, Pipefy for managing the opening of requests and Google Firebase for controlling the Database of registered users. In the end, a dashboard was generated with information available to the municipal management for better decision making, such as: Most requested services, number of registered users, peak times, among other information.",
+    "experience-skills-3": "<strong>Skills:</strong> Google Workspace · Google Cloud Platform (GCP) · Google Firebase · Cloud · Agile Methodology · Windows Server · Linux Server · Tech Consultancy · Technical Support",
+
+    "experience-role-2": "IT Intern",
+    "experience-date-2": "aug 2019 - feb 2021",
+    "experience-content-2": "I performed IT maintenance and provided support for the company's daily IT operations, assisting users at both the N1 and N2 levels while adhering to SLAs. I also handled support requests within the company's contracted ERP management system. During the pandemic, I had to configure VPN access on the laptops to enable remote work and ensure continued access to the company's ERP system. Additionally, I was responsible for monitoring the network and resources of the machines in use.",
+    "experience-skills-2": "<strong>Skills:</strong> TCP · Windows Server · Active Directory · Technical Support · Hardware Maintenance",
+
+    "experience-role-1": "IT Intern",
+    "experience-date-1": "may 2017 - mar 2019",
+    "experience-content-1": "During internship time, I provided technology consulting to the organization's executive team under the guidance of my supervisor. I conducted network maintenance and server access policies, ensured continuous HelpDesk support for users, and, with the approval of the executive team, implemented an upgrade to the organization's technology infrastructure.",
+    "experience-skills-1": "<strong>Skills:</strong> Windows Server · Active Directory · Checkpoint Firewall · Technical Support · Hardware Maintenance",
+
+    "edu-academic":"Academic Education",
+    "edu-academic-info": "Bachelor in Information Systems<br/><span class='cor-destaque'>Institution:</span> <span class='emissor'>Universidade Federal Rural da Amazônia</span><br/>Completed in 2023"
+}

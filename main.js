@@ -7,11 +7,19 @@ function toggleMobileMenu() {
     menuButton.classList.toggle("active");
 }
 
-// Default language (e.g., Portuguese)
-// let currentLanguage = 'pt-BR';
+// Check if there's a stored language preference in localStorage
+const storedLanguage = localStorage.getItem('languagePreference');
+
+// If there is a stored language preference, initialize the currentLanguage variable
+if (storedLanguage) {
+  currentLanguage = storedLanguage;
+} else {
+  // Default language if no preference is found in localStorage
+  currentLanguage = 'pt-BR';
+}
 
 // Initial content update
-// changeLanguage(currentLanguage);
+changeLanguage(currentLanguage);
 
 // Function to change the language
 function changeLanguage(language) {
@@ -20,6 +28,8 @@ function changeLanguage(language) {
     .then(response => response.json())
     .then(data => updateContent(data))
     .catch(error => console.error('Error loading language file', error));
+  // Store the language preference in localStorage
+  localStorage.setItem('languagePreference', language);
 }
 
 // Function to update the content based on language data
