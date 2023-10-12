@@ -1,10 +1,10 @@
-//Hamburger-menu
-function toggleMobileMenu() {
-    const mobileMenu = document.querySelector(".cabecalho__menu__mobile-links");
-    const menuButton = document.querySelector(".cabecalho__menu-button");
+//Hamburger menu
+const menuButton = document.querySelector(".cabecalho__menu-button");
+const mobileMenu = document.querySelector(".cabecalho__menu__mobile-links");
 
-    mobileMenu.classList.toggle("show");
+menuButton.onclick = () => {
     menuButton.classList.toggle("active");
+    mobileMenu.classList.toggle("show");
 }
 
 // Check if there's a stored language preference in localStorage
