@@ -1,11 +1,12 @@
 //Hamburger menu
 const menuButton = document.querySelector(".cabecalho__menu-button");
-const mobileMenu = document.querySelector(".cabecalho__menu__mobile-links");
 
-menuButton.onclick = () => {
+menuButton.addEventListener('click', () => {
     menuButton.classList.toggle("active");
+
+    const mobileMenu = document.querySelector(".cabecalho__menu__mobile-links");
     mobileMenu.classList.toggle("show");
-}
+})
 
 // Check if there's a stored language preference in localStorage
 const storedLanguage = localStorage.getItem('languagePreference');

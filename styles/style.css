@@ -229,6 +229,7 @@ strong {
     }
 
     .cabecalho__menu-button {
+        -webkit-tap-highlight-color: transparent;
         background: none;
         border: none;
         cursor: pointer;
