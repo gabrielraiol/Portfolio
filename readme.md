@@ -5,4 +5,4 @@
 <a href="https://raiol.vercel.app/" target="_blank">Link to portfolio</a>
 </br>
 </br>
-<p>This was my first responsive HTML/CSS project, and I use it to this day. When there is a need I update some information or, if I like some feature learned, add it.</p>
+<p>This was my first responsive project, and I use it as my personal portfolio. Whenever there is a need to change some information or add something cool, I update it, such as the recent implementation of the language switching feature and the hamburger menu for mobile.</p>
