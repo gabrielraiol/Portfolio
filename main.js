@@ -2,10 +2,10 @@
 const menuButton = document.querySelector(".cabecalho__menu-button");
 
 menuButton.addEventListener('click', () => {
-    menuButton.classList.toggle("active");
+  menuButton.classList.toggle("active");
 
-    const mobileMenu = document.querySelector(".cabecalho__menu__mobile-links");
-    mobileMenu.classList.toggle("show");
+  const mobileMenu = document.querySelector(".cabecalho__menu__mobile-links");
+  mobileMenu.classList.toggle("show");
 })
 
 // Check if there's a stored language preference in localStorage
